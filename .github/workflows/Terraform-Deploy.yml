@@ -1,4 +1,4 @@
-name: Terraform On Aws
+name: Terraform On Aws1
 on:
    push:
     branches: [main]
