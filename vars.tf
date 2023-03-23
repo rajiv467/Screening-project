@@ -26,3 +26,13 @@ variable "subnet4_cidr" {
 variable "subnet5_cidr" {
   default = "10.0.6.0/24"
 }
+
+variable "environment" {
+  description = "team environment to create testing infrastructure"
+  type        = string
+}
+
+variable "project" {
+  description = "project name"
+  type        = string
+}
